@@ -1,7 +1,22 @@
 body {
-    background-color: purple;
+    background-color: black;
 }
-h1{
-    color: black;
+
+h1 {
+    color: purple;
     font-size: 63px;
+    text-shadow: 0 0 10px purple;
+}
+
+h2 {
+    color: purple;
+    text-shadow: 0 0 8px purple;
+}
+
+iframe {
+    border: 3px solid purple;
+}
+
+iframe:hover {
+    box-shadow: 0 0 20px purple;
 }
