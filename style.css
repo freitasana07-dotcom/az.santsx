@@ -1,6 +1,6 @@
 body {
     background-color: #100b16;
-    color: #d8b4fe;
+    color: #c289ff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 20px;
 }
@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-    color: #d8b4fe;
+    color: #be8ef1;
     font-size: 32px;
     border-bottom: 2px solid #7e22ce;
     padding-bottom: 10px;
@@ -55,6 +55,6 @@ footer {
     background-color: #1e112a;
     border-radius: 10px;
     border-top: 2px solid #a855f7;
-    color: #e9d5ff;
+    color: #4400ff;
     font-size: 16px;
 }
