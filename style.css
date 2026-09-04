@@ -2,12 +2,14 @@ body {
     background-color: #100b16;
     color: white;
     font-family: Arial, sans-serif;
+    margin: 20px;
 }
 
 h1 {
-    color: #a855f7;
+    color: #ffffff;
     font-size: 55px;
     text-align: center;
+    text-shadow: 0 0 10px #a855f7, 0 0 20px #a855f7, 0 0 30px #7e22ce;
 }
 
 h2 {
@@ -15,8 +17,21 @@ h2 {
     font-size: 32px;
     border-bottom: 2px solid #7e22ce;
     padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+/* Organizador dos vídeos */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
 iframe {
+    width: 360px;
+    height: 215px;
     border: 2px solid #7e22ce;
+    border-radius: 10px;
+    /* BORDAS ARREDONDADAS NOS VÍDEOS */
 }
