@@ -1,38 +1,10 @@
-body {
-    background-color: #100b16;
-    color: white;
-    font-family: Arial, sans-serif;
-    margin: 20px;
-}
-
 h1 {
     color: #ffffff;
-    font-size: 55px;
+    font-size: 45px;
     text-align: center;
-    /* Efeito Neon reforçado */
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #a855f7, 0 0 30px #a855f7, 0 0 40px #a855f7, 0 0 55px #7e22ce;
-}
-
-h2 {
-    color: #d8b4fe;
-    font-size: 32px;
-    border-bottom: 2px solid #7e22ce;
-    padding-bottom: 10px;
-    margin-top: 40px;
-    /* Um leve brilho roxo nos títulos menores também */
-    text-shadow: 0 0 8px #a855f7;
-}
-
-.galeria {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-iframe {
-    width: 360px;
-    height: 215px;
-    border: 2px solid #7e22ce;
-    border-radius: 10px;
+    background-color: #1e112a; /* Fundo escuro para a caixa */
+    border: 3px solid #a855f7; /* Borda roxa bem visível */
+    border-radius: 15px; /* Bordas arredondadas */
+    padding: 20px; /* Espaço por dentro da caixa */
+    box-shadow: 0 0 20px #7e22ce; /* Sombra brilhante em volta da caixa! */
 }
