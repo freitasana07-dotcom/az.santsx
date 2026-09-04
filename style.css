@@ -9,7 +9,8 @@ h1 {
     color: #ffffff;
     font-size: 55px;
     text-align: center;
-    text-shadow: 0 0 10px #a855f7, 0 0 20px #a855f7, 0 0 30px #7e22ce;
+    /* Efeito Neon reforçado */
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #a855f7, 0 0 30px #a855f7, 0 0 40px #a855f7, 0 0 55px #7e22ce;
 }
 
 h2 {
@@ -18,9 +19,10 @@ h2 {
     border-bottom: 2px solid #7e22ce;
     padding-bottom: 10px;
     margin-top: 40px;
+    /* Um leve brilho roxo nos títulos menores também */
+    text-shadow: 0 0 8px #a855f7;
 }
 
-/* Organizador dos vídeos */
 .galeria {
     display: flex;
     flex-wrap: wrap;
@@ -33,5 +35,4 @@ iframe {
     height: 215px;
     border: 2px solid #7e22ce;
     border-radius: 10px;
-    /* BORDAS ARREDONDADAS NOS VÍDEOS */
 }
